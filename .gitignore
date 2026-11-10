@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Kaggle downloaded dataset
+backend/data/
+dataset_tools/kaggle_upload/
+*.wav
+*.flac
+
+# Secrets and credentials
+kaggle.json
+*.pem
+
+# Temporary files
+*.log
+*.tmp
